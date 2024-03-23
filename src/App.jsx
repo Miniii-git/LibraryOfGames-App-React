@@ -29,7 +29,7 @@ function App() {
   };
 
   return (
-    <>
+    <div className="App">
       <Header />
       <Search
         typingSearch={typingSearch}
@@ -42,7 +42,7 @@ function App() {
         newData={newData}
         setNewData={setNewData}
       />
-    </>
+    </div>
   );
 }
 

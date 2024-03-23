@@ -3,14 +3,21 @@
   /*font-family: "Source Sans Pro", sans-serif;*/
   line-height: 1.5;
 }
+* {
+  cursor: url("../src/assets/cu2.png"), auto;
+}
 
 body {
   margin: auto;
-  max-width: 1100px;
+  max-width: 1150px;
   min-height: 100vh;
   padding: 10px;
-  background-image: url("../src/assets/sky.png");
-  background-size: cover;
+  background-image: url("../src/assets/11zon_resized.png");
+  min-height: 100%; /* این چند خط برای ثابت ماندن بک گراند است*/
+  background-repeat: no-repeat; /* این چند خط برای ثابت ماندن بک گراند است*/
+  background-attachment: fixed; /* این چند خط برای ثابت ماندن بک گراند است*/
+  background-position: center; /* این چند خط برای ثابت ماندن بک گراند است*/
+  background-size: cover; /* این چند خط برای ثابت ماندن بک گراند است*/
   color: #ffffff;
 }
 
