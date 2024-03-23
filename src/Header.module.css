@@ -1,0 +1,64 @@
+.Header {
+  color: white;
+  border: 3px solid none;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  height: 101px;
+  background-color: rgba(0, 0, 0, 0.236);
+}
+
+.Header h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.504);
+}
+
+#bookIcon {
+  position: relative;
+  top: 5px;
+  color: #99ff66;
+}
+
+#Mini {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+#Mini a {
+  border-radius: 2px;
+  background-color: rgba(13, 0, 22, 0.319);
+  padding: 0px 6px 4px 6px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  transition: all ease-in-out 150ms;
+  font-weight: bold;
+}
+
+#Mini a:hover {
+  box-shadow: 0px 0px 5px white;
+}
+
+@media (max-width: 500px) {
+  .Header h1 {
+    font-size: 1.5rem;
+  }
+  #Mini {
+    font-size: 13px;
+  }
+  #Mini a {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 400px) {
+  .Header h1 {
+    font-size: 1.5rem;
+  }
+  #Mini a {
+    display: block;
+  }
+}
