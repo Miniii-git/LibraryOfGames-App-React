@@ -12,6 +12,7 @@
 .FavoriteBook img {
   width: 50px;
   height: 65px;
+  border-radius: 2px;
 }
 
 .FavoriteBook p {
@@ -24,14 +25,15 @@
 #CircleXmark {
   font-size: 14px;
   align-self: flex-start;
+  color: rgba(255, 255, 255, 0.384);
 }
 
 #CircleXmark:hover {
-  color: black;
+  color: white;
 }
 
 #CircleXmark:active {
-  color: rgb(194, 0, 174);
+  color: #fba9f4;
 }
 
 .imageSmall {
@@ -72,6 +74,7 @@
     margin: 5px;
     margin-bottom: 0px;
     margin-top: 8px;
+    border-radius: 2px;
   }
 
   #CircleXmark {
@@ -79,4 +82,12 @@
     top: -67px;
     left: -6px;
   }
+}
+
+.FavoriteBook img:hover {
+  box-shadow: 0px 0px 5px 2px rgba(255, 255, 255, 0.145);
+}
+
+.imageSmall img:hover {
+  box-shadow: 0px 0px 5px 2px rgba(255, 255, 255, 0.145);
 }

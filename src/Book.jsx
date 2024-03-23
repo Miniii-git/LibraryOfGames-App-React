@@ -5,6 +5,7 @@ import { faHeart as heartSolid } from "@fortawesome/free-solid-svg-icons";
 import { faHeart as heartregular } from "@fortawesome/free-regular-svg-icons";
 import { faStar as starSolid } from "@fortawesome/free-solid-svg-icons";
 import { faStar as starregular } from "@fortawesome/free-regular-svg-icons";
+import { Tooltip } from "react-tooltip";
 
 function Book({ info, addToFavoriteList }) {
   const likeHandler = () => {
@@ -13,8 +14,8 @@ function Book({ info, addToFavoriteList }) {
   return (
     <div className={styles.Book}>
       <div className={styles.bookImage}>
-        <a href={info.link}>
-          <img src={info.img} title={info.title} />
+        <a>
+          <img src={info.img} />
         </a>
       </div>
       <div className={styles.bookInformatoin}>

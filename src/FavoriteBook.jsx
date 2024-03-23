@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./FavoriteBook.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleXmark } from "@fortawesome/free-regular-svg-icons";
+import { Tooltip } from "react-tooltip";
 
 export default function FavoriteBook({ book, addToFavoriteList }) {
   const deleteHandler = () => {
@@ -10,9 +11,7 @@ export default function FavoriteBook({ book, addToFavoriteList }) {
   return (
     <>
       <div className={styles.FavoriteBook}>
-        <a href={book.link}>
-          <img src={book.img} title={book.title} />
-        </a>
+        <img src={book.img} />
         <p>{book.title}</p>
         <FontAwesomeIcon
           icon={faCircleXmark}
@@ -21,7 +20,24 @@ export default function FavoriteBook({ book, addToFavoriteList }) {
         />
       </div>
       <div className={styles.imageSmall}>
-        <img src={book.img} />
+        <a
+          data-tooltip-id="toolF"
+          data-tooltip-content={book.title}
+          data-tooltip-place="bottom"
+        >
+          <img src={book.img} />
+        </a>
+        <Tooltip
+          id="toolF"
+          style={{
+            width: "80px",
+            backgroundColor: "#00000078",
+            fontSize: "10px",
+            textAlign: "center",
+            borderRadius: "20px",
+          }}
+        />
+
         <FontAwesomeIcon
           icon={faCircleXmark}
           id={styles.CircleXmark}

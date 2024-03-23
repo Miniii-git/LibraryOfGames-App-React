@@ -14,10 +14,23 @@ function Header() {
       </h1>
       <div id={styles.Mini}>
         <a href="#" target="-blank">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
           Made By Mini
         </a>{" "}
         <span>| React.js</span>
       </div>
+      {/*<div class={styles.ro}>
+        <a href="#">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          Submit
+        </a>
+      </div>*/}
     </div>
   );
 }

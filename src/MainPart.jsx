@@ -26,7 +26,7 @@ function ListofBooks({ searchMode, findedResults, newData, setNewData }) {
       <div className={styles.allBooksList}>
         {!searchMode ? (
           <div>
-            <h2>List of Books</h2>
+            <h2>List of Games</h2>
             {newData.map((book) => (
               <Book
                 info={book}
