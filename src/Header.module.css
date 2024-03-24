@@ -30,30 +30,21 @@
 }
 
 #Mini a {
-  border-radius: 2px;
-  background-color: rgba(13, 0, 22, 0.319);
   padding: 0px 6px 4px 6px;
-  text-decoration: none;
-  color: rgb(255, 255, 255);
-  font-size: 14px;
-  transition: all ease-in-out 150ms;
-  font-weight: bold;
-  margin-right: 10px;
-}
-
-#Mini a {
+  background-color: rgba(13, 0, 22, 0.319);
   position: relative;
   display: inline-block;
   padding: 8px 12px;
-  color: #99ff66;
+  color: #ffffff;
   font-size: 10px;
   text-decoration: none;
   text-transform: uppercase;
   overflow: hidden;
   transition: 0.5s;
   margin-top: 5px;
+  margin-right: 10px;
   letter-spacing: 2px;
-  border-radius: 2px;
+  border-radius: 4px;
 }
 
 #Mini a span {

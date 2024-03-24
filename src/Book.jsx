@@ -14,16 +14,27 @@ function Book({ info, addToFavoriteList }) {
   return (
     <div className={styles.Book}>
       <div className={styles.bookImage}>
-        <a>
+        <a href={info.link} target="-blank">
           <img src={info.img} />
         </a>
       </div>
       <div className={styles.bookInformatoin}>
         <h4>{info.title}</h4>
-        <p>Author: {info.author}</p>
-        <p>Languge: {info.language}</p>
-        <p>Year: {info.year}</p>
-        <p>Pages: {info.pages} </p>
+        <div>
+          <p>
+            <b>Year:</b> {info.year}
+          </p>
+          <p>
+            <b>Developer:</b> {info.developer}
+          </p>
+          <p>
+            <b>Publisher:</b> {info.publisher}
+          </p>
+
+          <p>
+            <b>Genre:</b> {info.genre}{" "}
+          </p>
+        </div>
       </div>
       <div className={styles.like}>
         <FontAwesomeIcon

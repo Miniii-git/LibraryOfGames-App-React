@@ -3,7 +3,7 @@ import Search from "./Search";
 import MainPart from "./MainPart";
 
 import { useState } from "react";
-import { books } from "./constants/gamesData";
+import { books } from "./constants/gamesData2";
 
 const DataWithStatus = books.map((book) => ({ ...book, status: 0 }));
 

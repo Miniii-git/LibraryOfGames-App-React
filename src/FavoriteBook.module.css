@@ -61,7 +61,7 @@
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 520px) {
   .FavoriteBook {
     display: none;
   }

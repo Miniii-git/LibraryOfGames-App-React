@@ -11,7 +11,9 @@ export default function FavoriteBook({ book, addToFavoriteList }) {
   return (
     <>
       <div className={styles.FavoriteBook}>
-        <img src={book.img} />
+        <a href={book.link} target="-blank">
+          <img src={book.img} />
+        </a>
         <p>{book.title}</p>
         <FontAwesomeIcon
           icon={faCircleXmark}
