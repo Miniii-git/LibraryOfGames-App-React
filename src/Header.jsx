@@ -22,15 +22,6 @@ function Header() {
         </a>{" "}
         <span>| React.js</span>
       </div>
-      {/*<div class={styles.ro}>
-        <a href="#">
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          Submit
-        </a>
-      </div>*/}
     </div>
   );
 }
