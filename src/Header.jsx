@@ -13,7 +13,10 @@ function Header() {
         <MdOutlineStarPurple500 style={{ fontSize: "14px" }} />
       </h1>
       <div id={styles.Mini}>
-        <a href="#" target="-blank">
+        <a
+          href="https://github.com/Miniii-git/LibraryOfGames-App-React"
+          target="-blank"
+        >
           <span></span>
           <span></span>
           <span></span>
