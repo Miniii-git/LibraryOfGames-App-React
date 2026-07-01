@@ -2,8 +2,8 @@
 
 ## Overview
 
-Games Library is a React-based web application that allows users to browse, search, and explore video games using a public games API. The application provides detailed game information through a clean, responsive, and user-friendly interface.
-
+Games Library is a React-based web application that allows users to browse, search, and explore video games. The application provides detailed game information through a clean, responsive, and user-friendly interface.
+I designed and implemented the entire user interface from scratch.
 ---
 
 ## Features
