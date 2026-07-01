@@ -1,8 +1,38 @@
-# React + Vite
+# Games Library
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+Games Library is a React-based web application that allows users to browse, search, and explore video games using a public games API. The application provides detailed game information through a clean, responsive, and user-friendly interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
+
+## Features
+
+- Search games by title
+- Browse game collection
+- View detailed game information
+- Favorites management
+- Responsive design
+
+---
+
+## Technologies
+
+- React
+- JavaScript
+- HTML
+- CSS
+
+---
+
+## Live Demo
+
+https://libraryofgamesmini.netlify.app/
+
+---
+
+## Screenshots
+
+<img width="1337" height="907" alt="image" src="https://github.com/user-attachments/assets/a884f05d-bdbb-4122-b0dd-881629f3ad70" />
+
+
